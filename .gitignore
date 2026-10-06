@@ -1,0 +1,14 @@
+# Ignore large model artifacts (keep repo lightweight)
+*.pkl
+*.h5
+*.joblib
+
+# Python bytecode and virtual environments
+__pycache__/
+*.pyc
+venv/
+env/
+.venv/
+
+# Environment / API keys
+.env
